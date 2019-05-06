@@ -1,0 +1,2213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Order Status & Actions Manager\n"
+"POT-Creation-Date: 2018-03-22 10:51+0000\n"
+"PO-Revision-Date: 2018-11-19 11:02+0000\n"
+"Last-Translator: Patrick <info@actualityextensions.com>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-status-actions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:92
+msgid "Higher PHP version required"
+msgstr "مطلوب إصدار أعلى ل PHP"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:92
+#, php-format
+msgid ""
+"Google Cloud Print interaction requires PHP version %s or higher - your "
+"current version is only %s."
+msgstr ""
+"يتطلب إصدار PHP  %s أو أحدث للتفاعل مع خدمة \"طباعة في السحاب من جوجل\" - "
+"الإصدار الحالي هو %s فقط."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:158
+#, php-format
+msgid ""
+"The %s authentication could not go ahead, because something else on your "
+"site is breaking it. Try disabling your other plugins and switching to a "
+"default theme. (Specifically, you are looking for the component that sends "
+"output (most likely PHP warnings/errors) before the page begins. Turning off "
+"any debugging settings may also help)."
+msgstr ""
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:227
+msgid ""
+"No refresh token was received from Google. This often means that you entered "
+"your client secret wrongly, or that you have not yet re-authenticated "
+"(below) since correcting it. Re-check it, then follow the link to "
+"authenticate again. Finally, if that does not work, then use expert mode to "
+"wipe all your settings, create a new Google client ID/secret, and start "
+"again."
+msgstr ""
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:229
+#, php-format
+msgid "Error: %s"
+msgstr "خطأ: %s"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:235
+msgid "Authorization failed"
+msgstr "فشل عملية الترخيص"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:253
+msgid "Success"
+msgstr "نجاح"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:253
+#, php-format
+msgid "you have authenticated your %s account."
+msgstr ""
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:253
+#: assets/google-cloud-print-library/google-cloud-print-library.php:780
+#: includes/admin/class-wc-sa-admin-settings.php:603
+msgid "Google Cloud Print"
+msgstr "الطباعة في السحاب من جوجل"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:284
+msgid "Google Client ID"
+msgstr "معرف ID  جوجل"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:285
+msgid "Google Client Secret"
+msgstr "عميل جوجل السرى"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:286
+#: includes/admin/meta-boxes/views/html-status-settings.php:521
+msgid "Printer"
+msgstr "الطابعة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:287
+#: includes/admin/meta-boxes/views/html-status-settings.php:537
+msgid "Copies"
+msgstr "النسخ"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:288
+msgid "Print job header"
+msgstr "طباعة العمل الرئيسي"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:307
+#: assets/google-cloud-print-library/google-cloud-print-library.php:314
+msgid "Google Cloud Print notice:"
+msgstr "بيان الطباعة في السحاب من جوجل:"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:308
+#, php-format
+msgid ""
+"Click here to authenticate your %s account (you will not be able to print "
+"via %s without it)."
+msgstr "انقر هنا لتوثيق %s الحساب (لن تتمكن من الطباعة عبر %s بدونها)."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:316
+#, php-format
+msgid ""
+"Google have recently abolished the previous authentication method for Google "
+"Cloud Print. You should enter new credentials to authenticate your %s "
+"account."
+msgstr ""
+"ألغت جوجل مؤخرًا طريقة الترخيص السابقة للطباعة في السحاب من جوجل. يجب عليك "
+"إدخال بيانات الاعتماد الجديدة لترخيص %s حسابك."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:318
+#, php-format
+msgid ""
+"Google have recently abolished the previous authentication method for Google "
+"Cloud Print. Go here and enter new credentials to authenticate your %s "
+"account."
+msgstr ""
+"ألغت جوجل مؤخرًا طريقة الترخيص السابقة للطباعة في السحاب من جوجل. اذهب هنا "
+"وأدخل بيانات الاعتماد الجديدة لترخيص %s حسابك."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:337
+msgid "Google Cloud Print Test"
+msgstr "إختبار الطباعة في السحاب من جوجل"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:356
+msgid "Non-understood response:"
+msgstr "جواب غير مفهوم:"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:371
+msgid "See the instructions above to learn how to get this"
+msgstr "انظر للتعليمات أعلاه لمعرفة كيفية الحصول على هذا"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:385
+msgid ""
+"Anything you enter here will be pre-pended to the print job. Use any valid "
+"HTML (including &lt;style&gt; tags)"
+msgstr "سيتم إرفاق أي شيء تقوم بإدخاله هنا إلى مهمة الطباعة."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:415
+msgid "Account either not connected, or no printers available)"
+msgstr "الحساب إما غير متصل، أو لا توجد طابعات متاحة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:445
+#: assets/google-cloud-print-library/google-cloud-print-library.php:589
+msgid "Color"
+msgstr "اللون"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:451
+msgid "Media size"
+msgstr "حجم الوسائط"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:457
+#: assets/google-cloud-print-library/google-cloud-print-library.php:566
+msgid "Fit to page"
+msgstr "تتناسب مع الصفحة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:478
+msgid "Page orientation"
+msgstr "اتجاه الصفحة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:485
+msgid "Margins:"
+msgstr "الهوامش:"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:489
+msgid "Top"
+msgstr "أعلى"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:490
+msgid "Right"
+msgstr "اليمين"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:491
+msgid "Bottom"
+msgstr "اسفل"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:492
+msgid "Left"
+msgstr "اليسار"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:511
+#: assets/google-cloud-print-library/google-cloud-print-library.php:834
+msgid "refresh"
+msgstr "تحديث"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:529
+msgid "mm"
+msgstr "mm"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:564
+msgid "Do not fit to page"
+msgstr "لا تتناسب مع الصفحة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:574
+msgid "Portrait"
+msgstr "عرضي"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:576
+msgid "Landscape"
+msgstr "طولي"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:578
+#: assets/google-cloud-print-library/google-cloud-print-library.php:591
+msgid "Automatic"
+msgstr "تلقائي"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:587
+msgid "Monochrome"
+msgstr "أحادي اللون"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:701
+msgid "Google Cloud Print links:"
+msgstr "روابط طباعة في السحاب من جوجل:"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:702
+msgid "Learn about Google Cloud Print"
+msgstr "تعرف على تقنية الطباعة في السحاب من جوجل"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:704
+msgid "Your printers"
+msgstr "الطابعات الخاصة بك"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:706
+msgid "Your print jobs"
+msgstr "طباعة مهامك"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:720
+#, php-format
+msgid ""
+"You appear to be authenticated with Google Cloud Print, but if you are "
+"seeing authorisation errors, then you can click here to authenticate your %s "
+"account again."
+msgstr ""
+"يبدو أنك حاصل على رخصه في خدمة \"طباعة في السحاب من جوجل\" ، ولكن إذا كنت "
+"ترى أخطاء في الرخصة، فيمكنك النقر هنا لتوثيق حسابك  %s مرة أخرى."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:737
+#: includes/class-wc-sa-install.php:163
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:738
+msgid "UpdraftPlus WordPress backups"
+msgstr "النسخة الاحتياطية المضافة إلى وورد برس"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:747
+#: includes/class-wc-sa-ajax.php:99
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك صلاحية لدخول هذه الصفحة."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:770
+msgid "Instructions"
+msgstr "التعليمات"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:773
+msgid ""
+"For longer help, including screenshots, follow this link. The description "
+"below is sufficient for more expert users."
+msgstr ""
+"للحصول على مساعدة إضافية، بما في ذلك لقطات الشاشة، اتبع هذا الرابط. الوصف "
+"أدناه كافي لمزيد من المستخدمين الخبراء."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:780
+#: includes/admin/class-wc-sa-admin-settings.php:603
+#, php-format
+msgid ""
+"%s does not allow authorisation of sites hosted on direct IP addresses. You "
+"will need to change your site's address (%s) before you can use %s for "
+"storage."
+msgstr ""
+"%s لا يسمح بتفويض المواقع المضافة على عناوين IP المباشرة. ستحتاج إلى تغيير "
+"عنوان موقعك  (%s) قبل أن تتمكن من استخدام %s للتخزين."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:788
+msgid ""
+"Follow this link to your Google API Console, and there create a Client ID in "
+"the API Access section."
+msgstr ""
+"اتبع هذا الرابط إلى وحدة التحكم API من جوجل ، وهناك يتم إنشاء رمز العميل في "
+"قسم ال API "
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:788
+msgid ""
+"Select 'Web Application' as the application type. Then enter the client ID "
+"and secret below and save your settings."
+msgstr ""
+"اختر \"تطبيق الموقع الإلكتروني\" كنوع التطبيق. ثم أدخل رمز العميل والرقم "
+"السري أدناه وحفظ إعداداتك."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:790
+msgid ""
+"You must add the following as the authorised redirect URI (under \"More "
+"Options\") when asked"
+msgstr ""
+"يجب عليك إضافة ما يلي على أنه عنوان URI المعتمد توجيهه (تحت عنوان \"المزيد "
+"من الخيارات\") عندما يُطلب منك ذلك"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:792
+msgid ""
+"N.B. If you install this plugin on several WordPress sites, then you might "
+"have problems in re-using your project (depending on whether Google have "
+"fixed issues at their end yet); if so, then  create a new project from your "
+"Google API console for each site."
+msgstr ""
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:797
+msgid "After completing authentication, a list of printers will appear."
+msgstr "بعد الانتهاء من الترخيص، ستظهر قائمة بالطابعات."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:797
+msgid "Choose one, and then save the settings for the second time."
+msgstr "اختر واحدة، ثم احفظ الإعدادات للمرة الثانية."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:810
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:813
+msgid "Test Printing"
+msgstr "فحص الطباعة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:818
+msgid "Enter some text to print:"
+msgstr "أدخل بعض النصوص للطباعة:"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:824
+msgid ""
+"N.B. The values used for any printer-specific options configured above are "
+"those that were most recently saved (if any)."
+msgstr ""
+"ملاحظة: القيم المستخدمة لأي خيارات خاصة بالطابعة وتم تدوينها أعلاه هي القيم "
+"التي تم حفظها مؤخرًا (إن وجدت)."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:824
+#: assets/google-cloud-print-library/google-cloud-print-library.php:835
+msgid "Print"
+msgstr "طباعة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:828
+msgid "You need to enter some text to print."
+msgstr "تحتاج إلى إدخال بعض النصوص للطباعة."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:829
+msgid "Printing..."
+msgstr "الطباعة..."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:830
+msgid "The print job was sent successfully."
+msgstr "تم إرسال مهمة الطباعة بنجاح."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:831
+msgid "Response:"
+msgstr "الجواب:"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:832
+msgid "No printer is yet chosen/available"
+msgstr "لم يتم اختيار الطابعة أو الطابعة غير متوفرة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:833
+msgid "refreshing..."
+msgstr "إنعاش..."
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:848
+msgid "Printer debugging information"
+msgstr "معلومات تصحيح أخطاء الطابعة"
+
+#: assets/google-cloud-print-library/google-cloud-print-library.php:849
+msgid "Show..."
+msgstr "عرض..."
+
+#: includes/admin/class-wc-sa-admin-meta-boxes.php:99
+msgid "Status Data"
+msgstr "وضع البيانات"
+
+#: includes/admin/class-wc-sa-admin-meta-boxes.php:102
+msgid "Status Actions"
+msgstr "وضع العمليات"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:61
+#: includes/admin/class-wc-sa-admin-post-types.php:64
+#: includes/admin/class-wc-sa-admin-post-types.php:66
+msgid "Status updated."
+msgstr "الوضع محدث."
+
+#: includes/admin/class-wc-sa-admin-post-types.php:62
+msgid "Custom field updated."
+msgstr "تم تحديث خانة العميل."
+
+#: includes/admin/class-wc-sa-admin-post-types.php:63
+msgid "Custom field deleted."
+msgstr "تم حذف خانة العميل."
+
+#: includes/admin/class-wc-sa-admin-post-types.php:65
+#, php-format
+msgid "Status restored to revision from %s"
+msgstr "تمت استعادة الوضع للمراجعة من %s"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:67
+msgid "Status saved."
+msgstr "حفظ الوضع."
+
+#: includes/admin/class-wc-sa-admin-post-types.php:68
+msgid "Status submitted."
+msgstr "تم تقديم الوضع."
+
+#: includes/admin/class-wc-sa-admin-post-types.php:69
+#, php-format
+msgid "Status scheduled for: <strong>%1$s</strong>."
+msgstr "عين موعداً في: <strong>%1$s</strong>."
+
+#: includes/admin/class-wc-sa-admin-post-types.php:70
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:71
+msgid "Status draft updated."
+msgstr "مسودة الوضع محدث."
+
+#: includes/admin/class-wc-sa-admin-post-types.php:86
+#, php-format
+msgid "%s status updated."
+msgid_plural "%s statues updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:87
+#, php-format
+msgid "%s status not updated, somebody is editing it."
+msgid_plural "%s statuses not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:88
+#, php-format
+msgid "%s status permanently deleted."
+msgid_plural "%s statuses permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:89
+#, php-format
+msgid "%s status moved to the Trash."
+msgid_plural "%s statuses moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:90
+#, php-format
+msgid "%s status restored from the Trash."
+msgid_plural "%s statuses restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:106
+#: includes/admin/class-wc-sa-admin-settings.php:434
+msgid "Name"
+msgstr "الاسم"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:107
+msgid "Label"
+msgstr "تسمية"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:108
+#: includes/admin/class-wc-sa-admin-settings.php:201
+#: includes/admin/class-wc-sa-admin-settings.php:279
+#: includes/admin/meta-boxes/views/html-status-settings.php:54
+#: includes/class-wc-sa-post-types.php:66
+msgid "Icon"
+msgstr "أيقونة"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:109
+#: includes/admin/meta-boxes/views/html-status-settings.php:21
+msgid "Action"
+msgstr "تم"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:110
+#: includes/admin/class-wc-sa-admin-settings.php:514
+#: includes/admin/meta-boxes/views/html-status-settings.php:12
+#: includes/templates/html-invoice-uncompressed.php:247
+#: includes/templates/html-invoice.php:1
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:111
+#: includes/admin/class-wc-sa-admin-settings.php:513
+#: includes/admin/meta-boxes/views/html-status-settings.php:37
+msgid "Reports"
+msgstr "تقارير"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:112
+#: includes/admin/class-wc-sa-admin-settings.php:515
+msgid "Editing"
+msgstr "التعديل"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:113
+#: includes/admin/class-wc-sa-admin-settings.php:516
+msgid "Trigger"
+msgstr "الزناد"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:114
+#: includes/admin/class-wc-sa-admin-settings.php:517
+msgid "Orders"
+msgstr "الطلب"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:145
+#: includes/admin/class-wc-sa-admin-post-types.php:252
+msgid "Delete permanently"
+msgstr "الحذف النهائي"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:200
+msgid "Status name"
+msgstr "إسم الوضع"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:218
+#, php-format
+msgid "Insert into %s"
+msgstr "تضاف إلى %s"
+
+#: includes/admin/class-wc-sa-admin-post-types.php:219
+#, php-format
+msgid "Uploaded to this %s"
+msgstr "تم التحميل إلى هذا  %s"
+
+#: includes/admin/class-wc-sa-admin-settings.php:30
+#: includes/admin/class-wc-sa-admin-settings.php:47
+#: includes/admin/class-wc-sa-admin-settings.php:296
+#: includes/class-wc-sa-post-types.php:52
+msgid "Order Statuses"
+msgstr "أوضاع الطلب"
+
+#: includes/admin/class-wc-sa-admin-settings.php:48
+#: includes/admin/class-wc-sa-admin-settings.php:132
+msgid "Default Statuses"
+msgstr "الأوضاع الافتراضية"
+
+#: includes/admin/class-wc-sa-admin-settings.php:49
+msgid "General Options"
+msgstr "الخيارات العامة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:50
+#: includes/admin/class-wc-sa-admin-settings.php:149
+msgid "Printing Options"
+msgstr "خيارات الطباعة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:51
+#: includes/admin/meta-boxes/views/html-status-settings.php:560
+msgid "Automation"
+msgstr "التشغيل الآلي"
+
+#: includes/admin/class-wc-sa-admin-settings.php:52
+msgid "Gateways"
+msgstr "بوابات"
+
+#: includes/admin/class-wc-sa-admin-settings.php:53
+#: includes/admin/class-wc-sa-admin-settings.php:249
+#: includes/admin/meta-boxes/views/html-status-settings.php:545
+msgid "Template"
+msgstr "النموذج"
+
+#: includes/admin/class-wc-sa-admin-settings.php:117
+msgid "Gateway Options"
+msgstr "خيارات البوابة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:119
+msgid ""
+"You can define which status is assigned to the order depending on the "
+"gateway used to complete payment."
+msgstr ""
+"يمكنك تحديد الوضع الذي يتم تعيينه للطلب بناءً على الطريقة المستخدمة لإكمال "
+"عملية الدفع."
+
+#: includes/admin/class-wc-sa-admin-settings.php:133
+msgid ""
+"Default order statuses can be changed to your liking. Edit the naming, "
+"colouring, bulk and item editing capabilities from the table below."
+msgstr ""
+"يمكن تغيير أوضاع الطلب الافتراضية حسب رغبتك. قم بتعديل التسمية واللون "
+"والمجلد وتعديل قدرات البند من الجدول أدناه."
+
+#: includes/admin/class-wc-sa-admin-settings.php:150
+#, php-format
+msgid ""
+"Google Cloud Print is a Google service that lets users print from any Cloud "
+"Print application on any device in the network cloud to any printer. Learn "
+"more about this <a href=\"%1$s\" target=\"_blank\">here</a>, and get your "
+"printer configured."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:155
+msgid "Enabled / Disabled"
+msgstr "تفعيل / تعطيل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:156
+msgid "Enable Google Cloud Print"
+msgstr "تفعيل الطباعة في السحاب من جوجل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:161
+#: includes/admin/class-wc-sa-admin-settings.php:163
+msgid "Client ID"
+msgstr "معرف العميل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:167
+#: includes/admin/class-wc-sa-admin-settings.php:169
+msgid "Client Secret"
+msgstr "سر العميل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:186
+msgid "Status Settings"
+msgstr "إعدادات الوضع"
+
+#: includes/admin/class-wc-sa-admin-settings.php:187
+msgid ""
+"Configure general settings for your order statuses using the options below."
+msgstr "رتب الإعدادات العامة لأوضاع طلبك باستخدام الخيارات أدناه."
+
+#: includes/admin/class-wc-sa-admin-settings.php:193
+msgid "Status Style"
+msgstr "نمط الوضع"
+
+#: includes/admin/class-wc-sa-admin-settings.php:196
+msgid ""
+"This will effect the default WooCommerce's statuses (e.g. Processing, "
+"Completed, etc.)."
+msgstr ""
+"سيؤثر هذا على الأوضاع الافتراضية لوو كومرس (على سبيل المثال ، المعالجة ، "
+"إتمام العملية ، الخ)."
+
+#: includes/admin/class-wc-sa-admin-settings.php:202
+msgid "Text"
+msgstr "النص"
+
+#: includes/admin/class-wc-sa-admin-settings.php:207
+msgid "Successful Payment"
+msgstr "تمت عملية الدفع نجاح"
+
+#: includes/admin/class-wc-sa-admin-settings.php:210
+msgid ""
+"Choose what default status to have upon successful payment. Default: "
+"Processing."
+msgstr "اختر الوضع الافتراضي عند إتمام عملية الدفع. الافتراضي: معالجة."
+
+#: includes/admin/class-wc-sa-admin-settings.php:225
+msgid "Automation Options"
+msgstr "خيارات التشغيل الآلي"
+
+#: includes/admin/class-wc-sa-admin-settings.php:226
+msgid ""
+"Configure and setup the days and dates you do not want automated order "
+"assignments to run on your orders"
+msgstr ""
+"قم بترتيب وإعداد الأيام والتواريخ، التي لا تريد أن يتم تشغيل مهام الطلبات "
+"آلياً على طلباتك"
+
+#: includes/admin/class-wc-sa-admin-settings.php:231
+msgid "Disable Days"
+msgstr "تعطيل أيام"
+
+#: includes/admin/class-wc-sa-admin-settings.php:232
+msgid ""
+"Select the days of the week where you do not want automated order "
+"assignments to run on your orders."
+msgstr "حدد أيام الأسبوع التي لا تريد فيها تشغيل تعيين التلقائي على طلباتك."
+
+#: includes/admin/class-wc-sa-admin-settings.php:250
+msgid "Configure the template that gets printed using Google Cloud Print."
+msgstr "رتب النموذج الذي تتم طباعته باستخدام \"الطباعة في السحاب من جوجل\"."
+
+#: includes/admin/class-wc-sa-admin-settings.php:255
+msgid "Header"
+msgstr "ترويسة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:256
+msgid "This will be displayed just after the billing and shipping address."
+msgstr "سيتم العرض بعد الحصول على عنوان الفاتورة والشحن."
+
+#: includes/admin/class-wc-sa-admin-settings.php:261
+msgid "Returns & Refunds Policy"
+msgstr "سياسة الاسترجاع والاسترداد"
+
+#: includes/admin/class-wc-sa-admin-settings.php:262
+msgid "Enter text that will be displayed at the bottom, before the footer."
+msgstr "أدخل النص الذي سيتم عرضه في الجزء السفلي ، قبل قائمة التذييل."
+
+#: includes/admin/class-wc-sa-admin-settings.php:267
+msgid "Footer"
+msgstr "الفوتر"
+
+#: includes/admin/class-wc-sa-admin-settings.php:268
+msgid ""
+"This will be displayed just after the returns policy at the very bottom of "
+"the invoice."
+msgstr "سيتم عرض هذا فقط بعد سياسة المرتجعات المدونة في أسفل الفاتورة."
+
+#: includes/admin/class-wc-sa-admin-settings.php:273
+msgid "Store Tax Number"
+msgstr "الرقم الضريبي للمتجر"
+
+#: includes/admin/class-wc-sa-admin-settings.php:274
+#: includes/admin/class-wc-sa-admin-settings.php:280
+msgid "Enter the stores government tax number."
+msgstr "أدخل رقم الضريبة الحكومية المخزنة."
+
+#: includes/admin/class-wc-sa-admin-settings.php:297
+msgid ""
+"Order statuses are helpful in defining the workflow of your store. Click on "
+"Add Order Status to create your own order status and configure the "
+"parameters to suit your workflow."
+msgstr ""
+"أوضاع الطلب مفيدة في تعريف سير العمل في متجرك. انقر على \"إضافة وضع الطلب\" "
+"لإنشاء وضعية طلبك وتكوين العوامل التي تتناسب مع سير عملك."
+
+#: includes/admin/class-wc-sa-admin-settings.php:325
+msgid "Monday"
+msgstr "الاثنين"
+
+#: includes/admin/class-wc-sa-admin-settings.php:326
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: includes/admin/class-wc-sa-admin-settings.php:327
+msgid "Wednesday"
+msgstr "الاربعاء"
+
+#: includes/admin/class-wc-sa-admin-settings.php:328
+msgid "Thursday"
+msgstr "الخميس"
+
+#: includes/admin/class-wc-sa-admin-settings.php:329
+msgid "Friday"
+msgstr "الجمعة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:330
+msgid "Saturday"
+msgstr "السبت"
+
+#: includes/admin/class-wc-sa-admin-settings.php:331
+msgid "Sunday"
+msgstr "الأحد"
+
+#: includes/admin/class-wc-sa-admin-settings.php:346
+msgid "Disable Specific Dates"
+msgstr "تعطيل تواريخ محددة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:347
+msgid ""
+"Select the specific dates where you do not want automated order assignments "
+"to run on your orders."
+msgstr ""
+"حدد التواريخ المحددة التي لا تريد أن يتم تشغيل مهام الطلبات الآلي على طلباتك."
+
+#: includes/admin/class-wc-sa-admin-settings.php:367
+msgid "Gateway"
+msgstr "البوابة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:368
+msgid "Order Status"
+msgstr "وضع الطلب"
+
+#: includes/admin/class-wc-sa-admin-settings.php:383
+msgid "Default status"
+msgstr "الوضع الافتراضي"
+
+#: includes/admin/class-wc-sa-admin-settings.php:384
+#: includes/class-wc-sa-bulk.php:80 includes/class-wc-sa-order.php:57
+msgid "WooCommerce statuses"
+msgstr "أوضاع الوو كومرس"
+
+#: includes/admin/class-wc-sa-admin-settings.php:389
+#: includes/class-wc-sa-bulk.php:85 includes/class-wc-sa-order.php:73
+msgid "Custom statuses"
+msgstr "أوضاع العميل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:406
+msgid "Reset Defaults"
+msgstr "إعادة للوضع الافتراضي"
+
+#: includes/admin/class-wc-sa-admin-settings.php:433
+#: includes/admin/meta-boxes/views/html-status-settings.php:28
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/admin/class-wc-sa-admin-settings.php:435
+#: includes/admin/meta-boxes/views/html-status-settings.php:60
+msgid "Colour"
+msgstr "اللون"
+
+#: includes/admin/class-wc-sa-admin-settings.php:436
+#: includes/class-wc-sa-bulk.php:79
+msgid "Bulk Actions"
+msgstr "إتمام الكل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:439
+msgid "Check this box to hide this status from the Bulk Actions menu."
+msgstr "اختر هذا المربع لإخفاء الوضع من القائمة العامة."
+
+#: includes/admin/class-wc-sa-admin-settings.php:441
+#: includes/admin/meta-boxes/views/html-status-settings.php:353
+msgid "Item Editing"
+msgstr "تعديل البند"
+
+#: includes/admin/class-wc-sa-admin-settings.php:444
+msgid "Check this box to enable item editing for this status."
+msgstr "اختر هذا المربع لتعديل العناصر للوضع الحالي."
+
+#: includes/admin/class-wc-sa-admin-settings.php:510
+msgid "Title"
+msgstr "العنوان"
+
+#: includes/admin/class-wc-sa-admin-settings.php:511
+#: includes/admin/meta-boxes/views/html-status-settings.php:9
+#: includes/admin/meta-boxes/views/html-status-settings.php:67
+#: includes/admin/meta-boxes/views/html-status-settings.php:88
+msgid "Style"
+msgstr "أسلوب"
+
+#: includes/admin/class-wc-sa-admin-settings.php:512
+msgid "Actions"
+msgstr "الاجراءات"
+
+#: includes/admin/class-wc-sa-admin-settings.php:539
+msgid "Included In Reports"
+msgstr "المدرج في التقارير"
+
+#: includes/admin/class-wc-sa-admin-settings.php:541
+msgid "Not Included In Reports"
+msgstr "غير المدرج في التقارير"
+
+#: includes/admin/class-wc-sa-admin-settings.php:545
+#: includes/admin/meta-boxes/views/html-status-settings.php:169
+#: includes/emails/class-wc-sa-email.php:127
+msgid "Administrator & Customer"
+msgstr "المسؤول والعميل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:547
+#: includes/admin/meta-boxes/views/html-status-settings.php:15
+#: includes/admin/meta-boxes/views/html-status-settings.php:167
+msgid "Customer"
+msgstr "عميل"
+
+#: includes/admin/class-wc-sa-admin-settings.php:549
+#: includes/admin/meta-boxes/views/html-status-settings.php:168
+#: includes/emails/class-wc-sa-email.php:124
+msgid "Administrator"
+msgstr "المسؤول"
+
+#: includes/admin/class-wc-sa-admin-settings.php:553
+msgid "No"
+msgstr "لا"
+
+#: includes/admin/class-wc-sa-admin-settings.php:558
+msgid "Item Editing Enabled"
+msgstr "تفعيل تعديل البند"
+
+#: includes/admin/class-wc-sa-admin-settings.php:560
+msgid "Item Editing Disabled"
+msgstr "تعطيل تعديل البند"
+
+#: includes/admin/class-wc-sa-admin-settings.php:565
+msgid "Automatic Trigger To"
+msgstr "مشغل تلقائي إلى"
+
+#: includes/admin/class-wc-sa-admin-settings.php:565
+msgid "After"
+msgstr "بعد"
+
+#: includes/admin/class-wc-sa-admin-settings.php:567
+msgid "Automatic Trigger Disabled"
+msgstr "تعطيل المشغل التلقائي"
+
+#: includes/admin/class-wc-sa-admin-settings.php:576
+msgid "No order statuses found."
+msgstr "لم يتم العثور على أوضاع الطلب."
+
+#: includes/admin/class-wc-sa-admin-settings.php:584
+#: includes/class-wc-sa-post-types.php:55
+msgid "Add Order Status"
+msgstr "إضافة وضع جديد"
+
+#: includes/admin/class-wc-sa-admin-settings.php:613
+msgid "Create Credentials"
+msgstr "إنشاء الشهادات"
+
+#: includes/admin/class-wc-sa-admin-settings.php:615
+msgid ""
+"Create credentials for your Google Cloud Print to begin setup of integration."
+msgstr ""
+"إنشاء الشهادات لتطبيق الطباعة في السحاب من جوجل لبدء الإعداد لعملية الدمج."
+
+#: includes/admin/class-wc-sa-admin-settings.php:618
+msgid "Create and connect to the "
+msgstr "انشاء والاتصال بال"
+
+#: includes/admin/class-wc-sa-admin-settings.php:621
+msgid "Google API"
+msgstr "Google API"
+
+#: includes/admin/class-wc-sa-admin-settings.php:627
+msgid "Application Type"
+msgstr "نوع التطبيق"
+
+#: includes/admin/class-wc-sa-admin-settings.php:629
+msgid ""
+"This is the type of application used for the integration with Google Cloud "
+"Print."
+msgstr ""
+"هذا هو نوع التطبيق المستخدم للإندماج مع خدمة \"طباعة في السحاب من جوجل\"."
+
+#: includes/admin/class-wc-sa-admin-settings.php:632
+msgid "Choose "
+msgstr "إختيار"
+
+#: includes/admin/class-wc-sa-admin-settings.php:633
+msgid "Web Application"
+msgstr "تطبيق الموقع الإلكتروني"
+
+#: includes/admin/class-wc-sa-admin-settings.php:633
+msgid " as the application type."
+msgstr " مثل نوع التطبيق."
+
+#: includes/admin/class-wc-sa-admin-settings.php:639
+msgid "Authorized Redirect URI"
+msgstr "إعادة توجيه التوثيق URI"
+
+#: includes/admin/class-wc-sa-admin-settings.php:641
+msgid ""
+"Enter this URI when asked for Authorized Redirect URIs, this would be under "
+"Restrictions."
+msgstr ""
+"أدخل الرابط عندما يُطلب منك للحصول على إذن لإعادة توجيه الروابط، تحت قيود "
+"محددة."
+
+#: includes/admin/class-wc-sa-admin-settings.php:651
+msgid "Authentication"
+msgstr "الترخيص"
+
+#: includes/admin/class-wc-sa-admin-settings.php:653
+msgid ""
+"This is required to ensure that your store is authorised to send prints to "
+"your Google Cloud Print."
+msgstr ""
+"هذا مطلوب لضمان أن متجرك مخول بإرسال مطبوعات إلى خدمة \"الطباعة في السحاب من "
+"جوجل."
+
+#: includes/admin/class-wc-sa-admin-settings.php:667
+#, php-format
+msgid "Authenticate %s"
+msgstr "ترخيص %s"
+
+#: includes/admin/class-wc-sa-admin-settings.php:669
+msgid "Authenticated with Google Cloud Print"
+msgstr "تم التوثيق باستخدام خدمة \"طباعة في السحاب من جوجل\""
+
+#: includes/admin/class-wc-sa-admin-settings.php:669
+msgid "Disconnect"
+msgstr "قطع الاتصال"
+
+#: includes/admin/class-wc-sa-admin-settings.php:680
+msgid "Printer Jobs"
+msgstr "وظائف الطابعة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:682
+msgid ""
+"View the print jobs of your Google Cloud Print account. Useful if you want "
+"to delete or view missing prints."
+msgstr ""
+"عرض نسخ الطباعة بحسابك في خدمة \"الطباعة في السحاب من جوجل\". مفيد إذا كنت "
+"تريد حذف أو عرض نسخ مفقودة."
+
+#: includes/admin/class-wc-sa-admin-settings.php:686
+msgid "View Print Jobs"
+msgstr "عرض وظائف الطابعة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:691
+msgid "Available Printers"
+msgstr "الطابعات المتاحة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:696
+msgid "Refresh"
+msgstr "تحديث"
+
+#: includes/admin/class-wc-sa-admin-settings.php:716
+msgid "Preview order"
+msgstr "معاينة الطلب"
+
+#: includes/admin/class-wc-sa-admin-settings.php:721
+#: includes/admin/meta-boxes/views/html-status-settings.php:550
+#: includes/templates/html-invoice-uncompressed.php:192
+#: includes/templates/html-invoice.php:1
+msgid "Invoice"
+msgstr "فاتورة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:723
+msgid "Package"
+msgstr "الباقة"
+
+#: includes/admin/class-wc-sa-admin-settings.php:724
+msgid "Enter order number first"
+msgstr "أدخل رقم الطلب أولاً"
+
+#: includes/admin/class-wc-sa-admin-settings.php:742
+msgid "Store Logo"
+msgstr "شعار المتجر"
+
+#: includes/admin/class-wc-sa-admin-settings.php:744
+msgid "Set the logo of your templates using your stores logo."
+msgstr "اضبط شعار النموذج باستخدام شعار متجرك."
+
+#: includes/admin/class-wc-sa-admin-settings.php:754
+msgid "Upload Logo"
+msgstr "تحميل الشعار."
+
+#: includes/admin/class-wc-sa-admin-settings.php:755
+msgid "Remove Logo"
+msgstr "إزالة الشعار"
+
+#: includes/admin/class-wc-sa-delete.php:33
+msgid "Delete Status"
+msgstr "حذف الوضع"
+
+#: includes/admin/class-wc-sa-delete.php:79
+msgid "Delete Order Status"
+msgstr "حذف وضع الطلب"
+
+#: includes/admin/class-wc-sa-delete.php:84
+msgid "You must reassign all orders marked as "
+msgstr "يجب إعادة تعيين جميع الطلبات التي تم وضع علامة عليها"
+
+#: includes/admin/class-wc-sa-delete.php:85
+msgid " to another before deleting it."
+msgstr "إلى آخر قبل حذفه."
+
+#: includes/admin/class-wc-sa-delete.php:92
+msgid "Reassign all orders marked as  "
+msgstr "إعادة تعيين كل الطلبات بعلامة"
+
+#: includes/admin/class-wc-sa-delete.php:93
+msgid " to:"
+msgstr "من أجل:"
+
+#: includes/admin/class-wc-sa-delete.php:110
+msgid "Go back to order statuses"
+msgstr "العودة إلى أوضاع الطلب"
+
+#: includes/admin/class-wc-sa-delete.php:112
+msgid "Reassign Orders & Delete Order Status"
+msgstr "إعادة تعيين الطلبات وحذف وضع الطلب"
+
+#: includes/admin/meta-boxes/views/html-status-publish.php:4
+#: includes/class-wc-sa.php:546
+msgid "Delete status"
+msgstr "حذف الوضع"
+
+#: includes/admin/meta-boxes/views/html-status-publish.php:11
+msgid "Create Status"
+msgstr "إنشاء وضع"
+
+#: includes/admin/meta-boxes/views/html-status-publish.php:14
+#: includes/class-wc-sa.php:548
+msgid "Update Status"
+msgstr "تحديث الوضع"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:6
+msgid "General"
+msgstr "عام"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:18
+#: includes/templates/html-invoice-uncompressed.php:285
+#: includes/templates/html-invoice.php:1
+#: includes/templates/html-packing.php:489 updater/pages/index.php:80
+msgid "Product"
+msgstr "المنتج"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:33
+msgid ""
+"Enter the label of the status which you would like to add. This should be "
+"lower case as will be displayed on the status label."
+msgstr ""
+"أدخل تسمية الوضع الذي تريد إضافته. يجب أن يكون بالأحرف الصغيرة حيث سيتم عرضه "
+"على تسمية الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:40
+msgid ""
+"Check this box allow this status to be considered as a placed order in the "
+"reports."
+msgstr "اختر هذا المربع للسماح باختيار الوضع ليعتبر طلب مودع في التقارير."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:43
+msgid "Dashboard Widget"
+msgstr "قطعة لوحة المعلومات"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:47
+msgid ""
+"Enable to display an order count with this status in the Dashboard widget."
+msgstr "تفعيل لعرض عدد الطلبات مع الوضع في قطعة لوحة التحكم."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:123
+#: includes/admin/meta-boxes/views/html-status-settings.php:132
+#: includes/class-wc-sa-bulk.php:116 includes/class-wc-sa-bulk.php:137
+#: includes/class-wc-sa-post-types.php:53
+msgid "Status"
+msgstr "الوضع"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:145
+msgid "Email Notification"
+msgstr "اشعارات البريد الإلكتروني"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:149
+msgid "Enable email notification"
+msgstr "تفعيل خدمة إخطار البريد الإلكتروني"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:154
+msgid "Email Type"
+msgstr "نوع البريد الإلكتروني"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:156
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:157
+msgid "Plain text"
+msgstr "نص عادي"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:160
+msgid "Choose which format of email to send."
+msgstr "اختر شكل البريد الإلكتروني الذي تريد إرساله."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:163
+msgid "Recipient(s)"
+msgstr "المستلم"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:170
+msgid "Custom Email Address"
+msgstr "عنوان البريد الإلكتروني العميل"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:180
+#, php-format
+msgid ""
+"Choose to whom you want the email to be sent to when the custom status is "
+"applied. Current admin email address %s."
+msgstr ""
+"اختر لمن تريد إرسال البريد الإلكتروني عند تفعيل وضع العميل. عنوان البريد "
+"الإلكتروني للمشرف الحالي %s."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:184
+msgid "Recipient Email Address"
+msgstr "البريد الإلكتروني للمستلم"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:188
+msgid ""
+"Enter the email address which you want to be notified when status is trigger."
+msgstr ""
+"أدخل عنوان البريد الإلكتروني الذي تريد أن يتم إخطارك به عند تشغيل الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:193
+msgid "\"From\" Name"
+msgstr "\"من\" الاسم"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:200
+msgid "Enter the email name which will appear when the email is sent."
+msgstr "أدخل اسم البريد الإلكتروني الذي سيظهر عند إرسال البريد الإلكتروني."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:203
+msgid "\"From\" Email Address"
+msgstr "\"من\" عنوان البريد الالكتروني"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:209
+msgid "Enter the email address which will appear when the email is sent."
+msgstr "أدخل عنوان البريد الإلكتروني الذي سيظهر عند إرسال البريد الإلكتروني."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:214
+msgid "Email Subject"
+msgstr "موضوع البريد الإلكتروني"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:220
+msgid "Enter the email subject which will appear when the email is sent."
+msgstr "أدخل موضوع البريد الإلكتروني الذي سيظهر عند إرسال البريد الإلكتروني."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:223
+msgid "Email Heading"
+msgstr "ترويسة بريد الكتروني"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:229
+msgid "Enter the heading which you want to appear on the email that is sent."
+msgstr "أدخل العنوان الذي تريد ظهوره على البريد الإلكتروني الذي سيتم إرساله."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:234
+msgid "Order Information"
+msgstr "معلومات الطلب"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:238
+msgid ""
+"Check this box to include order information which consists of billing and "
+"shipping address, contact details, order items, subtotal and total."
+msgstr ""
+"اختر هذا المربع لإضافة معلومات عن الطلب الذي يتكون من عنوان دفع الفاتورة "
+"وعنوان التوصيل، بيانات المتصل، ولائحة الطلب والمبلغ الفردي الإجمالي."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:241
+msgid "Custom Message"
+msgstr "رسالة العميل"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:245
+msgid ""
+"Check this box to include a custom message to the email body. This can "
+"include shortcodes from third party plugins."
+msgstr ""
+"اختر هذا المربع لإضافة رسالة العميل إلى نص البريد الإلكتروني. يمكن أن تتضمن "
+"رموز قصيرة للمكونات من جهات خارجية."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:248
+msgid "Message"
+msgstr "الرسالة"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:257
+msgid ""
+"Enter the message which will be sent in the email. Click on the trolley icon "
+"to load available shortcodes."
+msgstr ""
+"أدخل الرسالة التي سيتم إرسالها عبر البريد الإلكتروني. انقر على رمز العربة "
+"لتحميل الرموز القصيرة المتاحة."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:262
+#, php-format
+msgid "You can customise the look and layout of the emails by clicking %s."
+msgstr "يمكنك تعديل مظهر وتقسيمات الرسائل الإلكترونية من خلال النقر على %s."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:262
+msgid "here"
+msgstr "هنا"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:271
+msgid "Pay Button"
+msgstr "زر الدفع"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:275
+msgid ""
+"Enable this to display \"Pay\" button on the \"My Account\" page when this "
+"status is applied."
+msgstr "تفعيل عرض زر \"الدفع\" في صفحة \"حسابي\" عند تطبيق الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:278
+msgid "Cancel Orders"
+msgstr "إلغاء الطلبات"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:282
+msgid ""
+"Enable this to allow customer to cancel orders when this status is applied."
+msgstr "تفعيل الخدمه للسماح للعميل بإلغاء الطلبات عند تطبيق الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:284
+msgid "Customer Permissions"
+msgstr "أذونات العملاء"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:287
+msgid ""
+"Provide the ability for customers to inform you of their status on an order "
+"through their My Account page."
+msgstr "قدّم للعملاء القدرة على إبلاغك عن وضع طلبهم من خلال \"صفحة حسابي\"."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:291
+msgid "My Account"
+msgstr "حسابي"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:295
+msgid ""
+"Check this box to allow customer to set this status from the My Account page."
+msgstr "اختر هذا المربع للسماح للعميل بتعيين الوضع من \"صفحة حسابي\"."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:298
+msgid "Visibility Rule"
+msgstr "قاعدة الرؤية"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:303
+#: includes/admin/meta-boxes/views/html-status-settings.php:399
+#: includes/admin/meta-boxes/views/html-status-settings.php:421
+#: includes/admin/meta-boxes/views/html-status-settings.php:576
+msgid "Select Status"
+msgstr "إختر الوضع"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:317
+msgid ""
+"Select what the status of the order has to be before the button is shown."
+msgstr "حدد ما هو وضع الطلب قبل ظهور الزر."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:320
+msgid "Button Label"
+msgstr "تسمية الزر"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:325
+msgid "Enter the text that appears on the button."
+msgstr "أدخل النص الذي ظهر على الزر."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:328
+msgid "Confirmation Prompt"
+msgstr "تأكيد فوري"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:332
+msgid ""
+"Enable this to show the \"Prompt\" window when the user click on button."
+msgstr "تفعيل لإظهار نافذة \"مستعجل\" عندما ينقر المستخدم على الزر."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:336
+msgid "Product Reviews"
+msgstr "مراجعات المنتج"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:339
+msgid ""
+"Check this box to allow customers to leave a review for the products "
+"purchased in the order when this status set."
+msgstr ""
+"اختر هذا المربع للسماح للعملاء بترك وجهة نظرهم عن المنتجات التي تم شراؤها "
+"بالترتيب عند اختيار هذا الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:346
+msgid "Downloads Permitted"
+msgstr "التنزيلات مسموح بها"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:350
+msgid ""
+"Enable to permit downloads of virtual products in the order when this status "
+"is set."
+msgstr "تفعيل للسماح بتنزيل المنتجات الواقعية في الطلب عند تعيين الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:356
+msgid ""
+"Enable to allow item editing in the order. If unchecked, the order would be "
+"considered paid and no edits can be made."
+msgstr ""
+"تفعيل للسماح بتعديل الطلب. إذا لم يتم اختياره ، فسيتم اعتبار الطلب مدفوعًا "
+"ولا يمكن إجراء أي تعديلات عليه."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:359
+msgid "Stock Status"
+msgstr "وضع المخزون"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:363
+msgid "No affection to stock status"
+msgstr "لا تأثير على وضع المخزون"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:364
+msgid "Reduce stock levels"
+msgstr "خفض مستويات المخزون"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:365
+msgid "Restore stock levels"
+msgstr "استعادة مستويات المخزون"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:375
+msgid ""
+"Select what happens to the stock levels of the products when the status is "
+"applied to the order."
+msgstr ""
+"حدد ماذا سيحدث لحجم المخزون من المنتجات عندما يتم تطبيق الوضع على الطلب."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:382
+msgid "Action Icon"
+msgstr "رمز تم"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:384
+msgid "Use Style Icon"
+msgstr "استخدم نمط الأيقونة"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:388
+msgid "Select the icon you would like to display as the Action button."
+msgstr "حدد الرمز الذي ترغب في عرضه كزر الإجراء."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:390
+msgid "Workflow"
+msgstr "سير العمل"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:393
+msgid ""
+"Select which default actions should be available when this order status is "
+"assigned."
+msgstr ""
+"حدد الإجراءات الافتراضية التي يجب أن تكون متاحة عندما يتم تعيين وضع الطلب."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:396
+msgid "Default Actions"
+msgstr "الإجراءات الافتراضية"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:413
+msgid "Select which actions buttons should appear when this status is set."
+msgstr "حدد الأزرار و إجراءاتها التي يجب أن تظهر عند تعيين الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:416
+msgid ""
+"Select the statuses required of an order where this status can be assigned."
+msgstr "حدد الأوضاع المطلوبة للطلب حيث يمكن تعيين الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:418
+msgid "Action Visibility"
+msgstr "وضوح الإتمام"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:435
+msgid ""
+"Select which statuses need to be applied to the order before the action "
+"button is shown. Leave blank to not display the action button."
+msgstr ""
+"حدد الأوضاع التي يجب تطبيقها على الطلب قبل ظهور زر الإجراء. اتركه فارغا لعدم "
+"عرض زر الإجراء."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:437
+msgid "Permissions"
+msgstr "الأذونات"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:440
+msgid ""
+"Control who can assign this status to an order and who can remove the "
+"assignment of this status from an order."
+msgstr ""
+"تحكم بالشخص الذي يمكنه تعيين وضع الطلب والذي يمكنه إزالة تعيين الوضع للطلب."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:443
+msgid "To Unassign"
+msgstr "للإلغاء"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:446
+#: includes/admin/meta-boxes/views/html-status-settings.php:471
+msgid "Select Users"
+msgstr "اختيار المستخدمين"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:454
+#: includes/admin/meta-boxes/views/html-status-settings.php:479
+#, php-format
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:465
+#: includes/admin/meta-boxes/views/html-status-settings.php:490
+msgid ""
+"Select the users that are allowed to execute this action. Leave blank for "
+"everyone."
+msgstr "حدد المستخدمين المسموح لهم بتنفيذ هذا الإجراء. اتركه فارغًا للجميع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:468
+msgid "To Assign"
+msgstr "للتعيين"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:494
+msgid "Hide Bulk Actions"
+msgstr "إخفاء كل الإجراءات"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:498
+msgid ""
+"Check this box to hide the action for this status from the Bulk Actions menu."
+msgstr "اختر هذا المربع لإخفاء الإجراء الخاص بالوضع من القائمة العامة."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:501
+msgid "Order Note Prompt"
+msgstr "توجيه ملاحظة الطلب"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:505
+msgid ""
+"Check this box to display a modal window to enter a custom note when "
+"clicking on the action button."
+msgstr "اختر هذا المربع لعرض نافذة لإدخال ملاحظة العميل عند الضغط على زر تم."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:508
+msgid "Google Cloud Printing"
+msgstr "الطباعة في السحاب من جوجل"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:511
+msgid ""
+"Print an invoice automatically, over the cloud, when this status is assigned "
+"to an order."
+msgstr ""
+"قم بطباعة الفاتورة تلقائيًا ، عن طريق السحابة ، عند تعيين هذه الوضع للطلب."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:514
+msgid "Enable / Disable"
+msgstr "تمكين / تعطيل"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:518
+msgid "Enable printing when this status is assigned to an order."
+msgstr "تفعيل الطباعة عند تعيين اوضع الطلب."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:523
+msgid "Select Printer"
+msgstr "إختيار الطابعة"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:534
+msgid "Select the printer to send printing to."
+msgstr "حدد الطابعة لإرسال النسخ المراد طباعتها."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:542
+msgid "Set the number of copies to print."
+msgstr "اضبط عدد النسخ المراد طباعتها."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:548
+msgid "Choose an option"
+msgstr "اختر أحد الخيارات"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:552
+msgid "Packing"
+msgstr "التعبئة والتغليف"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:556
+msgid "Select which template to print the order details on."
+msgstr "حدد النموذج الذي تريد طباعت تفاصيل الطلب عليه."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:563
+msgid ""
+"Automate your workflow and trigger another order status to the order once "
+"this order status has been assigned."
+msgstr "اجعل سير عملك أوتوماتيكيا وتشغيل وضع آخر لطلبك بمجرد تعيين وضع الطلب."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:566
+msgid "Automatic Trigger"
+msgstr "مشغل تلقائي"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:570
+msgid "Triggers another status after a period of time when this status is set."
+msgstr "تشغيل وضع أخر بعد فترة من الزمن عند ضبط هذا الوضع."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:573
+msgid "Triggered Status"
+msgstr "وضع التشغيل"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:591
+msgid "Select which status should be triggered after the period of time."
+msgstr "حدد وضع التشغيل بعد الفترة الزمنية."
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:594
+msgid "Time Period"
+msgstr "فترة زمنية "
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:601
+msgid "Minutes"
+msgstr "دقائق"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:602
+msgid "Hours"
+msgstr "ساعات"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:603
+msgid "Days"
+msgstr "أيام"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:604
+msgid "Weeks"
+msgstr "أسابيع"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:605
+msgid "Months"
+msgstr "أشهر"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:606
+msgid "Years"
+msgstr "سنوات"
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:616
+msgid "Select the time period after which the triggered status is set."
+msgstr "حدد الفترة الزمنية للوضع الذي يتم تشغيله."
+
+#: includes/class-wc-sa-ajax.php:89
+msgid "You have taken too long. Please go back and retry."
+msgstr "لقد أخذت وقتا طويلا. الرجاء العودة والمحاولة مرة أخرى"
+
+#: includes/class-wc-sa-ajax.php:182
+#, php-format
+msgid "#%d is not valid order number"
+msgstr "#%d  رقم الطلب غير صحيح"
+
+#: includes/class-wc-sa-bulk.php:49 includes/class-wc-sa-bulk.php:50
+#: includes/class-wc-sa-bulk.php:73
+msgid "Batch Order Processing"
+msgstr "تجهيز دفع الطلب"
+
+#: includes/class-wc-sa-bulk.php:74
+msgid ""
+"This page is for users who want to change order statuses instantly. Simply "
+"scan the order number and the order will load below. Configure whether you "
+"want to apply your status after or automatically below."
+msgstr ""
+"هذه الصفحة للمستخدمين الذين يرغبون بالتغيير الفوري لوضع الطلب. ما عليك سوى "
+"المسح الضوئي على رقم الطلب من بعدها سيتم تحميل الطلب أدناه. قم باختيار ما "
+"إذا كنت تريد تطبيق الوضع بعد أو بشكل تلقائي أدناه."
+
+#: includes/class-wc-sa-bulk.php:95
+msgid "Apply"
+msgstr "تطبيق"
+
+#: includes/class-wc-sa-bulk.php:97
+msgid "Clear Orders"
+msgstr "الطلبات واضحة"
+
+#: includes/class-wc-sa-bulk.php:99
+msgid "Apply Automatically"
+msgstr "تطبق تلقائيا"
+
+#: includes/class-wc-sa-bulk.php:104
+msgid "Search orders..."
+msgstr "البحث عن الطلبات..."
+
+#: includes/class-wc-sa-bulk.php:110
+msgid "When you scan the order number, the order will appear here."
+msgstr "عندما تقوم باستخدام الماسح الضوئي على رقم الطلب، سيظهر الطلب هنا."
+
+#: includes/class-wc-sa-bulk.php:119 includes/class-wc-sa-bulk.php:140
+#: includes/templates/html-invoice-uncompressed.php:213
+#: includes/templates/html-invoice.php:1
+msgid "Order"
+msgstr "طلب"
+
+#: includes/class-wc-sa-bulk.php:121 includes/class-wc-sa-bulk.php:142
+msgid "Purchased"
+msgstr "اشترى"
+
+#: includes/class-wc-sa-bulk.php:123 includes/class-wc-sa-bulk.php:144
+msgid "Ship to"
+msgstr "أرسل ل"
+
+#: includes/class-wc-sa-bulk.php:127 includes/class-wc-sa-bulk.php:146
+#: includes/templates/html-invoice-uncompressed.php:222
+#: includes/templates/html-invoice.php:1
+msgid "Date"
+msgstr "التاريخ"
+
+#: includes/class-wc-sa-bulk.php:129 includes/class-wc-sa-bulk.php:148
+msgid "Total"
+msgstr "المجموع"
+
+#: includes/class-wc-sa-bulk.php:163
+msgid "Barcode Template created."
+msgstr "تم إنشاء الباركود للنموذج. "
+
+#: includes/class-wc-sa-bulk.php:164
+msgid "Barcode Template updated."
+msgstr "تم تحديث الباركود للنموذج."
+
+#: includes/class-wc-sa-bulk.php:196
+msgid "Batch Processing"
+msgstr "تجهيز الدفعات"
+
+#: includes/class-wc-sa-emails.php:42 includes/class-wc-sa-emails.php:51
+#: includes/class-wc-sa.php:659 includes/class-wc-sa.php:669
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: includes/class-wc-sa-install.php:163
+msgid "View Settings"
+msgstr "عرض الإعدادات"
+
+#: includes/class-wc-sa-install.php:179
+msgid "View Documentation"
+msgstr "عرض الوثائق"
+
+#: includes/class-wc-sa-install.php:179
+msgid "Docs"
+msgstr "مستندات"
+
+#: includes/class-wc-sa-install.php:180
+msgid "Visit Support"
+msgstr "زيارة الدعم"
+
+#: includes/class-wc-sa-install.php:180 updater/pages/index.php:125
+msgid "Support"
+msgstr "الدعم"
+
+#: includes/class-wc-sa-order.php:67 includes/class-wc-sa-order.php:79
+#, php-format
+msgid "Mark %s"
+msgstr "العلامة  %s"
+
+#: includes/class-wc-sa-order.php:125
+msgid "Complete"
+msgstr "اكتمل"
+
+#: includes/class-wc-sa-order.php:147
+msgid "Add Note"
+msgstr "اضف ملاحظة"
+
+#: includes/class-wc-sa-order.php:151
+msgid ""
+"Add a note for your reference or a note to the customer. The customer will "
+"be notified."
+msgstr "أضف ملاحظة للرجوع إليها ، أو أضف ملاحظة للعميل. سيتم إبلاغ العميل."
+
+#: includes/class-wc-sa-order.php:156
+msgid "Private note"
+msgstr "مذكرة خاصة"
+
+#: includes/class-wc-sa-order.php:157
+msgid "Note to customer"
+msgstr "ملاحظة للعميل"
+
+#: includes/class-wc-sa-order.php:166
+msgid "Add"
+msgstr "إضافة"
+
+#: includes/class-wc-sa-post-types.php:54
+msgctxt "Admin menu name"
+msgid "Order Statuses"
+msgstr "أوضاع الطلب"
+
+#: includes/class-wc-sa-post-types.php:56
+msgid "Add New Status"
+msgstr "إضافة وضع جديد"
+
+#: includes/class-wc-sa-post-types.php:57
+msgid "Edit"
+msgstr "تعديل"
+
+#: includes/class-wc-sa-post-types.php:58
+msgid "Edit Order Status"
+msgstr "تعديل حالة الطلب"
+
+#: includes/class-wc-sa-post-types.php:59
+msgid "New Status"
+msgstr "حالة جديدة"
+
+#: includes/class-wc-sa-post-types.php:60
+msgid "View Statuses"
+msgstr "عرض الأوضاع"
+
+#: includes/class-wc-sa-post-types.php:61
+msgid "View Status"
+msgstr "عرض الوضع"
+
+#: includes/class-wc-sa-post-types.php:62
+msgid "Search Statuses"
+msgstr "أوضاع البحث"
+
+#: includes/class-wc-sa-post-types.php:63
+msgid "No Statuses found"
+msgstr "لم يتم العثور على الأوضاع"
+
+#: includes/class-wc-sa-post-types.php:64
+msgid "No Statuses found in trash"
+msgstr "لم يتم العثور على الأوضاع في سلة المهملات"
+
+#: includes/class-wc-sa-post-types.php:65
+msgid "Parent Status"
+msgstr "وضع الوالدين"
+
+#: includes/class-wc-sa-post-types.php:67
+msgid "Set Icon"
+msgstr "حدد الأيقونة"
+
+#: includes/class-wc-sa-post-types.php:68
+msgid "Remove Icon"
+msgstr "إزالة الايقونة"
+
+#: includes/class-wc-sa-post-types.php:70
+msgid "This is where you can add new Statuses that you can use in orders."
+msgstr ""
+"هذا هو المكان الذي يمكنك فيه إضافة الحالات الجديدة التي يمكنك استخدامها في "
+"الطلبات."
+
+#: includes/class-wc-sa-status.php:194
+#, php-format
+msgid "Item #%s stock incremented from %s to %s."
+msgstr "تمت زيادة البند #%s من %s الى %s."
+
+#: includes/class-wc-sa.php:141
+msgctxt "Order status"
+msgid "Pending Payment"
+msgstr "في انتظار الدفع"
+
+#: includes/class-wc-sa.php:142
+msgctxt "Order status"
+msgid "Processing"
+msgstr "معالجة"
+
+#: includes/class-wc-sa.php:143
+msgctxt "Order status"
+msgid "On Hold"
+msgstr "قيد الإنتظار"
+
+#: includes/class-wc-sa.php:144
+msgctxt "Order status"
+msgid "Completed"
+msgstr "منتهى"
+
+#: includes/class-wc-sa.php:145
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr "ألغيت"
+
+#: includes/class-wc-sa.php:146
+msgctxt "Order status"
+msgid "Refunded"
+msgstr "المبلغ المسترد"
+
+#: includes/class-wc-sa.php:147
+msgctxt "Order status"
+msgid "Failed"
+msgstr "فشل"
+
+#: includes/class-wc-sa.php:334
+#, php-format
+msgid " <span class=\"count\"> (%s)</span>"
+msgid_plural " <span class=\"count\"> (%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: includes/class-wc-sa.php:418
+#, php-format
+msgid "<strong>%s order</strong> %s"
+msgid_plural "<strong>%s orders</strong> %s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: includes/class-wc-sa.php:450
+msgid "Are you sure you want to cancel this order?"
+msgstr "هل أنت متأكد أنك تريد إلغاء هذا الطلب؟"
+
+#: includes/class-wc-sa.php:451
+msgid "Are you sure you want to change the status of this order?"
+msgstr "هل أنت متأكد أنك تريد تغيير وضع هذا الطلب؟"
+
+#: includes/class-wc-sa.php:533
+msgid "<b>Status Name</b> is a required field."
+msgstr "خانة <b>اسم الحالة</b> مطلوبة."
+
+#: includes/class-wc-sa.php:534
+msgid "<b>Status Label</b> is a required field."
+msgstr "خانة <b>تسمية الوضع</b> مطلوبة."
+
+#: includes/class-wc-sa.php:535
+msgid "<b>\"From\" Name</b> is a required field."
+msgstr "خانة <b>\"من\" الاسم</b> مطلوبة."
+
+#: includes/class-wc-sa.php:536
+msgid "<b>From\" Email Address</b> is a required field."
+msgstr "خانة <b>\"من\" عنوان البريد الإلكتروني</b> مطلوبة."
+
+#: includes/class-wc-sa.php:537
+msgid "<b>Email Subject</b> is a required field."
+msgstr "خانة <b>موضوع البريد الإلكتروني</b> مطلوبة."
+
+#: includes/class-wc-sa.php:538
+msgid "<b>Email Heading</b> is a required field."
+msgstr "خانة <b>عنوان البريد الإلكتروني</b> مطلوبة."
+
+#: includes/class-wc-sa.php:539
+msgid "<b>Visibility Rule</b> is a required field."
+msgstr "خانة <b>قاعدة الرؤية</b> مطلوبة."
+
+#: includes/class-wc-sa.php:540
+msgid "<b>Button Label</b> is a required field."
+msgstr "خانة <b>تسمية الزر</b> مطلوبة."
+
+#: includes/class-wc-sa.php:541
+msgid "<b>Triggered Status</b> is a required field."
+msgstr "خانة <b>الوضع المحفز</b> مطلوبة."
+
+#: includes/class-wc-sa.php:542
+msgid "<b>Time Period</b> is a required field."
+msgstr "خانة <b>الفترة الزمنية</b> مطلوبة."
+
+#: includes/class-wc-sa.php:545
+msgid "Go Back"
+msgstr "رجوع"
+
+#: includes/class-wc-sa.php:547
+msgid "Order Status Actions"
+msgstr "إجراءات وضع الطلب"
+
+#: includes/class-wc-sa.php:549
+msgid "Save Status"
+msgstr "حفظ الوضع"
+
+#: includes/class-wc-sa.php:588
+msgid "There was an error scanning barcode. Please try again later."
+msgstr "كان هناك خطأ في المسح الضوئي للباركود. الرجاء معاودة المحاولة لاحق."
+
+#: includes/emails/class-wc-sa-email.php:33
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: includes/emails/class-wc-sa-email.php:34
+#, php-format
+msgid ""
+"This is an order notification sent to customers when their order status is "
+"marked %s"
+msgstr ""
+"هذا الإشعار للطلب تم إرساله إلى العملاء عندما يتم وضع علامة على طلبهم %s"
+
+#: includes/emails/class-wc-sa-email.php:349
+msgid "Return to emails"
+msgstr "العودة إلى رسائل البريد الإلكتروني"
+
+#: includes/emails/class-wc-sa-email.php:377
+msgid "HTML template"
+msgstr "النموذج HTML"
+
+#: includes/emails/class-wc-sa-email.php:378
+msgid "Plain text template"
+msgstr "نموذج النص العادي"
+
+#: includes/emails/class-wc-sa-email.php:404
+msgid "Delete template file"
+msgstr "حذف ملف النموذج"
+
+#: includes/emails/class-wc-sa-email.php:407
+#, php-format
+msgid ""
+"This template has been overridden by your theme and can be found in: %s."
+msgstr "لقد تم تجاوز النموذج من خلال المظهر الأساسي ويمكن العثور عليه في %s."
+
+#: includes/emails/class-wc-sa-email.php:423
+msgid "Copy file to theme"
+msgstr "نسخ الملف إلى الثيم"
+
+#: includes/emails/class-wc-sa-email.php:426
+#, php-format
+msgid ""
+"To override and edit this email template copy %1$s to your theme folder: "
+"%2$s."
+msgstr ""
+"لتجاوز وتعديل نموذج البريد الإلكتروني  %1$s إلى مجلد المظهر الأساسي:  %2$s."
+
+#: includes/emails/class-wc-sa-email.php:436
+msgid "File was not found."
+msgstr "لم يتم العثور على الملف."
+
+#: includes/emails/class-wc-sa-email.php:463
+msgid "View template"
+msgstr "عرض النموذج"
+
+#: includes/emails/class-wc-sa-email.php:464
+msgid "Hide template"
+msgstr "إخفاء النموذح"
+
+#: includes/emails/class-wc-sa-email.php:475
+msgid "Are you sure you want to delete this template file?"
+msgstr "هل أنت متأكد أنك تريد حذف ملف النموذج؟"
+
+#: includes/emails/class-wc-sa-email.php:534
+msgid "Template file copied to theme."
+msgstr "تم نسخ ملف النموذج إلى المظهر الأساسي."
+
+#: includes/functions.php:102
+msgid "wc_sa_get_status should not be called before the wc_sa_init action."
+msgstr ""
+
+#: includes/templates/html-invoice-uncompressed.php:205
+#: includes/templates/html-invoice.php:1
+msgid "Tax Number"
+msgstr "رقم الضريبة"
+
+#: includes/templates/html-invoice-uncompressed.php:233
+#: includes/templates/html-invoice.php:1
+msgid "Billing Address"
+msgstr "عنوان وصول الفواتير"
+
+#: includes/templates/html-invoice-uncompressed.php:238
+#: includes/templates/html-invoice.php:1
+#: includes/templates/html-packing.php:466
+msgid "Shipping Address"
+msgstr "عناوين الشحن"
+
+#: includes/templates/html-invoice-uncompressed.php:252
+#: includes/templates/html-invoice.php:1
+msgid "Telephone"
+msgstr "الهاتف"
+
+#: includes/templates/html-invoice-uncompressed.php:260
+#: includes/templates/html-invoice.php:1
+msgid "Coupons"
+msgstr "الكوبونات"
+
+#: includes/templates/html-invoice-uncompressed.php:270
+#: includes/templates/html-invoice.php:1
+msgid "Note"
+msgstr "إيضاح"
+
+#: includes/templates/html-invoice-uncompressed.php:287
+#: includes/templates/html-invoice.php:1
+msgid "Quantity"
+msgstr "الكمية"
+
+#: includes/templates/html-invoice-uncompressed.php:289
+#: includes/templates/html-invoice.php:1
+#: includes/templates/html-packing.php:491
+msgid "Price"
+msgstr "السعر"
+
+#: includes/templates/html-packing.php:446
+msgid "Delivery Note"
+msgstr "وصل التسليم"
+
+#: includes/templates/html-packing.php:450
+msgid "Order Details"
+msgstr "تفاصيل الطلب"
+
+#: includes/templates/html-packing.php:453
+msgid "Order Number"
+msgstr "رقم الطلب"
+
+#: includes/templates/html-packing.php:459
+msgid "Order Date"
+msgstr "التاريخ"
+
+#: includes/templates/html-packing.php:488
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/templates/html-packing.php:490
+msgid "Packed"
+msgstr "معبأ"
+
+#: updater/lib/github-checker.php:119
+msgid "There is no changelog available."
+msgstr "لا يوجد تغيير متاح."
+
+#: updater/lib/plugin-update-checker.php:638
+msgid "Register for Updates"
+msgstr "سجل للحصول على التحديثات"
+
+#: updater/lib/plugin-update-checker.php:638
+#, php-format
+msgid "<em><a href=\"%s\">Register here</a> to get this update</em>"
+msgstr "<em><a href=\"%s\">سجل هنا</a> للحصول على هذا التحديث</em>"
+
+#: updater/lib/plugin-update-checker.php:656
+msgid "Check for updates"
+msgstr "تحقق من وجود تحديثات"
+
+#: updater/lib/plugin-update-checker.php:704
+msgid "This plugin is up to date."
+msgstr "هذا أحدث الإضافات حتى الآن."
+
+#: updater/lib/plugin-update-checker.php:706
+msgid "A new version of this plugin is available."
+msgstr "يتوفر نسخة جديدة من البرنامج المساعد."
+
+#: updater/lib/plugin-update-checker.php:708
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "وضع المدقق للتحديث الغير معروف\"%s\""
+
+#: updater/pages/index.php:41
+msgid "Welcome"
+msgstr "أهلاً وسهلاً"
+
+#: updater/pages/index.php:42
+msgid ""
+"Thank you for purchasing from Actuality Extensions! To ensure you get the "
+"latest updates for bugs, features and tweaks, please enter the license "
+"details for your purchased in the table below."
+msgstr ""
+"شكرا لك على الشراء من شركة أكتشواليتي إكستنشن! لضمان حصولك على آخر التحديثات "
+"حول الأخطاء والميزات والتعديلات، يرجى إدخال بيانات الترخيص التي تم شرائها من "
+"الجدول أدناه."
+
+#: updater/pages/index.php:46
+msgid "Step 1 - Subscribe"
+msgstr "الخطوة الأولى_ اشترك"
+
+#: updater/pages/index.php:47
+msgid ""
+"Join and subscribe to our newsletter to get the latest updates on new "
+"features and notices. Only special product announcements and updates will be "
+"sent, no spam."
+msgstr ""
+"انضم إلى النشرة الإخبارية واشترك فيها للحصول على آخر التحديثات حول الميزات "
+"والإشعارات الجديدة. سيتم إرسال إعلانات وتحديثات المنتجات الخاصة فقط، لا "
+"إزعاج."
+
+#: updater/pages/index.php:48
+msgid "Subscribe"
+msgstr "الاشتراك"
+
+#: updater/pages/index.php:51
+msgid "Step 2 - CodeCanyon"
+msgstr "الخطوة الثانية - CodeCanyon"
+
+#: updater/pages/index.php:52
+msgid "Locate your purchase code through logging into "
+msgstr "حدد موقع شفرة الشراء من خلال تسجيل الدخول"
+
+#: updater/pages/index.php:52
+msgid "CodeCanyon.net"
+msgstr "CodeCanyon.net"
+
+#: updater/pages/index.php:52
+msgid ""
+", then go to Downloads > Plugin Name > Download > License certificate & "
+"purchase code. "
+msgstr ""
+"، ثم انتقل إلى التنزيلات> اسم البرنامج المساعد> تنزيل> شهادة الترخيص وكود "
+"الشراء."
+
+#: updater/pages/index.php:53
+msgid "Retrieve Purchase Code"
+msgstr "استرداد رمز الشراء"
+
+#: updater/pages/index.php:56
+msgid "Step 3 - Installed Products"
+msgstr "الخطوة 3 - المنتجات المثبتة"
+
+#: updater/pages/index.php:65
+msgid "Invalid request."
+msgstr "طلب غير صالح"
+
+#: updater/pages/index.php:81
+msgid "Purchase Code"
+msgstr "رمز الشراء"
+
+#: updater/pages/index.php:95
+msgid "Place your purchase code here"
+msgstr "ضع رمز الشراء هنا"
+
+#: updater/pages/index.php:120
+msgid "Save Settings"
+msgstr "احفظ الإعدادات"
+
+#: updater/pages/index.php:128
+msgid "Submit A Ticket"
+msgstr "تسجيل التذكرة"
+
+#: updater/pages/index.php:129
+msgid ""
+"We offer our support through our advanced ticket system. Use our contact "
+"form to filter through your query so your ticket can be allocated to the "
+"right department. "
+msgstr ""
+"نحن نقدم دعمنا من خلال نظام التذاكر المتطور لدينا. استخدم نموذج الاتصال "
+"لدينا لتنقية استفساراتك بحيث يمكن توجيه تذكرتك إلى القسم الصحيح."
+
+#: updater/pages/index.php:130
+msgid "Submit a ticket"
+msgstr "تسجيل التذكرة"
+
+#: updater/pages/index.php:133 updater/pages/index.php:135
+msgid "Documentation"
+msgstr "الوثائق"
+
+#: updater/pages/index.php:134
+msgid ""
+"This is the place to go to reference different aspects of the plugin. Our "
+"online documentation is a useful resource for learning the ins and outs of "
+"using our plugins."
+msgstr ""
+"هذا هو المكان المناسب للذهاب إلى مرجع جوانب مختلفة من البرنامج المساعد. "
+"لدينا وثائق على الانترنت هو مورد مفيد لتعلمins والخروج من استخدام الإضافات "
+"لدينا."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Order Status & Actions Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://codecanyon.net/item/woocommerce-customer-relationship-"
+"manager/6392174&ref=actualityextensions"
+msgstr ""
+"http://codecanyon.net/item/woocommerce-customer-relationship-"
+"manager/6392174&ref=actualityextensions"
+
+#. Description of the plugin/theme
+msgid ""
+"Enhance your workflow and create  order statuses with actions. Manage "
+"emails, permissions and other order related features."
+msgstr ""
+"قم بتحسين سير العملك وقم بإنشاء حالات الطلب مع اتخاذ الإجراءات. إدارة رسائل "
+"البريد الإلكتروني والأذونات وميزات أخرى متعلقة بالطلب."
+
+#. Author of the plugin/theme
+msgid "Actuality Extensions"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://actualityextensions.com/"
+msgstr "‫http://actualityextensions.com"

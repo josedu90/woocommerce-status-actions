@@ -1,0 +1,159 @@
+#weekdays {
+    width: 25em;
+    padding-bottom: 1em;
+}
+
+table#order-statuses {
+    margin-top: 10px;
+}
+
+.column-order_status mark span {
+    margin: 0 1em;
+}
+
+#order-statuses.widefat th,
+#order-statuses.widefat td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#order-statuses.widefat th.column-order_status,
+#order-statuses.widefat td.column-order_status,
+#order-statuses.widefat th.column-order_title,
+#order-statuses.widefat td.column-order_title {
+    text-align: left;
+}
+
+.status-disabled, .status-enabled, .status-manual {
+    display: inline-block !important;
+}
+
+#order-statuses.widefat th.column-order_module {
+    width: 70px;
+}
+
+#order-statuses.widefat .column-order_title {
+    width: inherit;
+}
+
+.add_status {
+    margin: 5px;
+}
+
+#order-statuses.widefat td.sort {
+    padding: 0 10px;
+    cursor: move;
+    font-size: 15px;
+    padding-right: 0;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+#order-statuses.widefat td.sort:before {
+    content: '\f333';
+    font-family: Dashicons;
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    display: block;
+    width: 17px;
+    float: left;
+    height: 100%;
+}
+
+#order-statuses.widefat td.column-order_action button.wc-action-button {
+    height: 33px;
+    -webkit-font-smoothing: antialiased;
+}
+
+table.default_status_settings input.color-picker-field {
+    width: 80px !important;
+}
+
+.automation_days {
+    width: 100%;
+    background: #e5e5e5;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.automation_days label {
+    width: calc(100% - 25px);
+    display: inline-block;
+}
+
+div.automation_days > input[type=checkbox]::checked {
+    font-size: 100px;
+}
+
+li.available-printers:before {
+    font-family: 'WC-SA-Icons' !important;
+    content: "\ecb5";
+    margin: 10px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+li.available-printers.__google__docs:before {
+    font-family: 'WC-SA-Icons' !important;
+    content: "\efc6";
+}
+
+ul.available-printers-list {
+    margin: 0;
+}
+
+.button.preview {
+    float: none;
+}
+.order_number_error{
+    color: red;
+    display: none;
+}
+#wc_sa_template_image{
+    display: none;
+}
+.invoice_preview {
+	border: 1px solid #ddd;
+	background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+	padding: 2em;
+	width: 350px;
+}
+.invoice_preview img,
+.invoice_preview .ae-invoice-shop {
+	display: block;
+	margin-bottom: 20px;
+}
+
+table.wc-sa-statuses-workflow thead th {
+    width: auto !important;
+}
+
+table.wc-sa-statuses-workflow {
+    table-layout: auto;
+}
+
+table.wc-sa-statuses-workflow thead th:first-child {
+    width: 100px !important;
+}
+
+table.wc-sa-statuses-workflow td.sort:before {
+    content: '\f333';
+    font-family: Dashicons;
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    display: block;
+    width: 17px;
+    float: left;
+    height: 100%;
+    cursor: move;
+}
+
+table.wc-sa-statuses-workflow tbody td:not(:first-child){
+    padding-left: 0;
+}

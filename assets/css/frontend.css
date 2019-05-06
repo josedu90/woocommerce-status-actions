@@ -1,0 +1,59 @@
+.tracking-progress-bar {
+    margin: 60px 0 90px 0;
+}
+.tracking-progress-bar__item {
+    background: #E5E7ED;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    z-index: 9;
+    padding: 0 10px;
+    line-height: 32px;
+    vertical-align: top;
+    text-align: center;
+}
+.tracking-progress-bar__item__bar {
+    background: #E5E7ED;
+    display: inline-block;
+    height: 1px;
+    margin: 0 -4px;
+}
+.tracking-progress-bar__item__bar--active {
+    background: #96588a;
+}
+
+.tracking-progress-bar__item--first {
+    margin-left: 0;
+}
+
+.tracking-progress-bar__item--active {
+    background: #96588a;
+    color: #fff;
+}
+
+.tracking-progress-bar > .tracking-progress-bar__item__bar:nth-last-child(1) {
+    display: none;
+}
+
+.tracking-progress-bar__item::before {
+    content: attr(data-icon);
+    font-family: 'WC-SA-Icons' !important;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.tracking-progress-bar__item span {
+    float: left;
+    line-height: 1.5;
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    text-align: center;
+    left: 0;
+    font-size: 14px;
+}
+
+.tracking-progress-bar__item:not(.tracking-progress-bar__item--active)::before {
+    color: #34495e;
+}
